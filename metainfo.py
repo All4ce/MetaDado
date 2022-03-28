@@ -23,5 +23,5 @@ else:
 os.system(f"exiftool *.{doc}")
 
 print(f"[*] ------- Encontrados e lidos {num} Arquivos! ------- [*]")
-os.system(f"rm *.pdf*")
+os.system(f"rm *.{doc}*")
 
